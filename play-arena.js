@@ -15,7 +15,7 @@ class PlayArena {
         log(`Defender: ${defender.name} | Health: ${defender.health} | Strength: ${defender.strength} | Attack: ${defender.attack}`)
         while (attacker.isAlive && defender.isAlive) {
             this.makeMove(attacker, defender);
-            this.util.swapObjects(attacker, defender);
+            [attacker, defender] = this.util.swapObjects(attacker, defender);
         }
         this.announceWinner();
     }

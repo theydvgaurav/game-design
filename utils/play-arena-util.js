@@ -1,8 +1,9 @@
 class PlayArenaUtil {
     swapObjects(obj1, obj2) {
-        let temp = Object.assign({}, obj1);
-        Object.assign(obj1, obj2);
-        Object.assign(obj2, temp);
+        let temp = obj1;
+        obj1 = obj2;
+        obj2 = temp;
+        return [obj1, obj2]
     }
 }
 
