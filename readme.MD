@@ -7,6 +7,7 @@ To run the code
 ```bash
   node run.js
 ```
+Output would be printed on console only.
 
 ## Running The Test Cases
 To run the code
@@ -14,6 +15,7 @@ To run the code
 ```bash
   node tests/run.js
 ```
+Output would be printed on console only.
 
 ## Authors
 
