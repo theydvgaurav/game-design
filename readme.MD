@@ -1,5 +1,4 @@
 # Play Arena Assignment
-Swiggy Back-End ASDE Assignment
 
 ## Running The Code
 To run the code
